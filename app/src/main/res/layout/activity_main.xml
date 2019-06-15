@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入号码"
+        android:inputType="number"
+        android:text="10086" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="请输入呼叫时长/秒"
+        android:inputType="number|numberDecimal"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/bt_bh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="拨号" />
+
+    <Button
+        android:id="@+id/bt_bh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="挂断"
+        android:visibility="gone" />
+
+
+</LinearLayout>
